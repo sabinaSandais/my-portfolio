@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <nav >
-      <a href="/">Portfolio</a>
-      <div>
-        <ul>
+    <nav className={styles.navbar}>
+      <a className= {styles.title}
+       href="/">Portfolio</a>
+      <div className={styles.menu}>
+        <ul className={styles.menuItems}>
           <li >
             <a href="#about">About</a>
           </li>
