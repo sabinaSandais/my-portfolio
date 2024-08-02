@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styles from './Navbar.module.css';
-//import {getImageUrl} from '../utils/getImageUrl';
+import {getImageUrl} from '../utils';
 
 const Navbar = () => {
   return (
@@ -8,6 +8,7 @@ const Navbar = () => {
       <a className= {styles.title}
        href="/">Portfolio</a>
       <div className={styles.menu}>
+        <img className={styles.menuBtn} src={getImageUrl("nav/menuIcon.png")} alt="" />
         <ul className={styles.menuItems}>
           <li >
             <a href="#about">About</a>
