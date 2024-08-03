@@ -16,7 +16,7 @@
       "source": "https://www.github.com"
     },
     {
-      "title": "Project C",
+      "title": "Wine pairing",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
@@ -24,7 +24,7 @@
       "source": "https://www.github.com"
     },
     {
-        "title": "Project C",
+        "title": "Quotes and Books",
         "imageSrc": "projects/project.png",
         "description": "This is a project made to learn the latest languages by building an app.",
         "skills": ["React", "Express", "Node"],
