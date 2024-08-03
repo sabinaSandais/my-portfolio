@@ -13,7 +13,7 @@ import { getImageUrl } from "../../utils";
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+          <a href="mailto:sabinasandais@gmail.com">myemail@email.com</a>
         </li>
         <li className={styles.link}>
           <img
