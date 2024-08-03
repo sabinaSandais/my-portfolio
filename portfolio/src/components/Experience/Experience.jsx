@@ -24,7 +24,7 @@ const Experience = () => {
                 {history.map((historyItem,id) =>{
                     return(
                         <li key={id}> 
-                        <img src={getImageUrl(history.imageSrc)} alt="" />
+                        <img src={getImageUrl(historyItem.imageSrc)} alt="" />
                         </li>
                     )
                 }
