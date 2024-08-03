@@ -8,7 +8,7 @@ const Navbar = () => {
       <a className= {styles.title}
        href="/">Portfolio</a>
       <div className={styles.menu}>
-        <img className={styles.menuBtn} src={getImageUrl("nav/menuIcon.png")} alt="" />
+        <img className={styles.menuBtn} src={getImageUrl("cursorIcon.png")} alt="menu.btn" />
         <ul className={styles.menuItems}>
           <li >
             <a href="#about">About</a>
