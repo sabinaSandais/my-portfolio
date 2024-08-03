@@ -1,6 +1,7 @@
 import React from 'react';
 import skills from "../../data/skills.json";
 import { getImageUrl } from '../../utils';
+import history from "../../data/history.json";
 
 const Experience = () => {
   return (
@@ -19,6 +20,17 @@ const Experience = () => {
                     )
                 })}
             </div>
+            <ul>
+                {history.map((historyItem,id) =>{
+                    return(
+                        <li key={id}> 
+                        <img src={getImageUrl(history.imageSrc)} alt="" />
+                        </li>
+                    )
+                }
+                )}
+
+            </ul>
         </div>
       
     </section>
