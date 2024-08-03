@@ -1,4 +1,5 @@
 import React from 'react'
+import {getImageUrl} from '../../utils';
 
 const Hero = () => {
   return (
@@ -10,6 +11,7 @@ const Hero = () => {
         </p>
         <a href="mailto:sabinasandais@gmail.com"> Contact Me</a>
     </div>
+    <img src={getImageUrl("hero/Screenshot.png")} alt="" />
    </section>
   )
 }
