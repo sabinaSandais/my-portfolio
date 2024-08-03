@@ -1,17 +1,20 @@
-import React from 'react'
+import React from 'react';
+import styles from './Hero.module.css';
 import {getImageUrl} from '../../utils';
 
 const Hero = () => {
   return (
-   <section>
-    <div>
-        <h1>Hi, I'm Sabina Sandais</h1>
-        <p>I am a full-stack developer.
+   <section className={styles.container}>
+    <div className={styles.content}>
+        <h1 className={styles.title}>Hi, I'm Sabina Sandais</h1>
+        <p className = {styles.description}>I am a full-stack developer.
             Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:sabinasandais@gmail.com"> Contact Me</a>
+        <a href="mailto:sabinasandais@gmail.com" className = {styles.contactButton}> Contact Me</a>
     </div>
-    <img src={getImageUrl("hero/Screenshot.png")} alt="" />
+    <img src={getImageUrl("hero/Screenshot.png")} alt="Hero Image Of Me" className = {styles.heroImg} />
+    < div className={styles.topBlur} />
+    <div className={styles.bottomBlur} />
    </section>
   )
 }
