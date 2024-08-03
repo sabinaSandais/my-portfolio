@@ -16,12 +16,16 @@
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "JavaScript",
+      "imageSrc": "skills/js2.png"
     },
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "MySql",
+      "imageSrc": "skills/mySql.jpg"
     },
     {
       "title": "Figma",
