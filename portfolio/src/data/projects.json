@@ -4,7 +4,7 @@
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
+      "demo": "https://c46-group-a-f3ebdee28d59.herokuapp.com/",
       "source": "https://github.com/sabinaSandais/Recycle-Ease"
     },
     {
