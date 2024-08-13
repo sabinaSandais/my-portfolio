@@ -1,34 +1,34 @@
 [
-    {
-      "title": "Recycle Ease",
-      "imageSrc": "projects/recycle.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://c46-group-a-f3ebdee28d59.herokuapp.com/",
-      "source": "https://github.com/sabinaSandais/Recycle-Ease"
-    },
-    {
-      "title": "Quiz App",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://sabinasandais.github.io/Brwser-project-sabina-diaa-nancy/",
-      "source": "https://github.com/sabinaSandais/Brwser-project-sabina-diaa-nancy"
-    },
-    {
-      "title": "Wine pairing",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://sabinasandais.github.io/wine-pairing-app/",
-      "source": "https://github.com/sabinaSandais/wine-pairing-app"
-    },
-    {
-        "title": "Quotes and Books",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-      }
-  ]
+  {
+    "title": "Recycle Ease",
+    "imageSrc": "projects/recycle.png",
+    "description": "This is the culmination of our Hack Your Future journey, where we developed a full stack web app featuring live notifications.",
+    "skills": ["React", "Express", "Node", "Mongo-Db", "socket-io", "css"],
+    "demo": "https://c46-group-a-f3ebdee28d59.herokuapp.com/",
+    "source": "https://github.com/sabinaSandais/Recycle-Ease"
+  },
+  {
+    "title": "Quiz App",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://sabinasandais.github.io/Brwser-project-sabina-diaa-nancy/",
+    "source": "https://github.com/sabinaSandais/Brwser-project-sabina-diaa-nancy"
+  },
+  {
+    "title": "Wine pairing",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://sabinasandais.github.io/wine-pairing-app/",
+    "source": "https://github.com/sabinaSandais/wine-pairing-app"
+  },
+  {
+    "title": "Quotes and Books",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
