@@ -17,7 +17,7 @@
   },
   {
     "title": "Wine pairing",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/wine.png",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://sabinasandais.github.io/wine-pairing-app/",
