@@ -9,9 +9,9 @@
   },
   {
     "title": "Quiz App",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/quiz.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["React", "Express", "Node", ""],
     "demo": "https://sabinasandais.github.io/Brwser-project-sabina-diaa-nancy/",
     "source": "https://github.com/sabinaSandais/Brwser-project-sabina-diaa-nancy"
   },
