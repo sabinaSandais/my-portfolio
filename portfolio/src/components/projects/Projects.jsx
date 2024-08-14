@@ -25,9 +25,13 @@ const Projects = () => {
                   </li>;
                 })}
               </ul>
-              <div>
-                <a href={project.demo}>Demo</a>
-                <a href={project.source}>source</a>
+              <div className={styles.links}>
+                <a className={styles.link} href={project.demo}>
+                  Demo
+                </a>
+                <a className={styles.link} href={project.source}>
+                  source
+                </a>
               </div>
             </div>
           );
