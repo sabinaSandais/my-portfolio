@@ -16,7 +16,7 @@ const Projects = () => {
                 alt={`Image of${project.title}`}
                 className={styles.image}
               />
-              <h3 className={styles.title}>{project.title}</h3>
+              <h3 className={styles.title2}>{project.title}</h3>
               <p className={styles.description}>{project.description}</p>
               <ul className={styles.skills}>
                 {project.skills.map((skill, id) => {
