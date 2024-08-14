@@ -1,11 +1,12 @@
 import React from "react";
 import projects from "../../data/projects.json";
 import { getImageUrl } from "../../utils";
+import styles from "./Projects.module.css";
 
 const Projects = () => {
   return (
     <section className={styles.container}>
-      <h2>Projects</h2>
+      <h2 className={styles.title}>Projects</h2>
       <div>
         {projects.map((project, id) => {
           return (
