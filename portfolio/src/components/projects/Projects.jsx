@@ -10,12 +10,13 @@ const Projects = () => {
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return (
-            <div key={id}>
+            <div className={styles.container2} key={id}>
               <img
                 src={getImageUrl(project.imageSrc)}
                 alt={`Image of${project.title}`}
+                className={styles.image}
               />
-              <h3>{project.title}</h3>
+              <h3 className={styles.title}>{project.title}</h3>
               <p>{project.description}</p>
               <ul>
                 {project.skills.map((skill, id) => {
