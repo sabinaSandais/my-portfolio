@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "../../data/projects.json";
+import { getImageUrl } from "../../utils";
 
 const Projects = () => {
   return (
@@ -9,7 +10,10 @@ const Projects = () => {
         {projects.map((project, id) => {
           return (
             <div key={id}>
-              <img src={project.imgSrc} alt={`Image of${project.title}`} />
+              <img
+                src={getImageUrl(project.imageSrc)}
+                alt={`Image of${project.title}`}
+              />
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <ul>
@@ -17,6 +21,10 @@ const Projects = () => {
                   <li key={id}>{skill}</li>;
                 })}
               </ul>
+              <div>
+                <a href={project.demo}>Demo</a>
+                <a href={project.source}>source</a>
+              </div>
             </div>
           );
         })}
