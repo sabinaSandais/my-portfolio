@@ -20,7 +20,9 @@ const Projects = () => {
               <p className={styles.description}>{project.description}</p>
               <ul className={styles.skills}>
                 {project.skills.map((skill, id) => {
-                  <li key={id}>{skill}</li>;
+                  <li className={styles.skill} key={id}>
+                    {skill}
+                  </li>;
                 })}
               </ul>
               <div>
