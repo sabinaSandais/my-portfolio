@@ -18,7 +18,7 @@ const Projects = () => {
               />
               <h3 className={styles.title}>{project.title}</h3>
               <p className={styles.description}>{project.description}</p>
-              <ul>
+              <ul className={styles.skills}>
                 {project.skills.map((skill, id) => {
                   <li key={id}>{skill}</li>;
                 })}
