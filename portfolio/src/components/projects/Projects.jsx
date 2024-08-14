@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
+import projects from "../../data/projects.json";
 
 const Projects = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <section>
+      <h2>Projects</h2>
+      <div>
+        {projects.map((project, id) => {
+            return<div key={id}>
+                 
 
-export default Projects
+            </div>
+        })}
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
