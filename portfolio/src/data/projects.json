@@ -38,13 +38,5 @@
     "skills": ["Css", "React", "Axios", "Jest"],
     "demo": "https://zesty-palmier-31593b.netlify.app/",
     "source": "https://github.com/sabinaSandais/Quiz/tree/main/quiz"
-  },
-  {
-    "title": "Quotes and Books",
-    "imageSrc": "projects/quotes.png",
-    "description": "This project is made to learn the front-end using React.You can read quotes and search booksand add to your favorites.",
-    "skills": ["React", "Css", "Node"],
-    "demo": "https://react-library-sabina.netlify.app/",
-    "source": "https://github.com/sabinaSandais/Quotes-books-Project-React"
   }
 ]
