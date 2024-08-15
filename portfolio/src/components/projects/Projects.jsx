@@ -2,7 +2,6 @@ import React from "react";
 import projects from "../../data/projects.json";
 import { getImageUrl } from "../../utils";
 import styles from "./Projects.module.css";
-
 const Projects = () => {
   return (
     <section className={styles.container}>
@@ -20,9 +19,11 @@ const Projects = () => {
               <p className={styles.description}>{project.description}</p>
               <ul className={styles.skills}>
                 {project.skills.map((skill, id) => {
-                  <li className={styles.skill} key={id}>
-                    {skill}
-                  </li>;
+                  return (
+                    <li className={styles.skill} key={id}>
+                      {skill}
+                    </li>
+                  );
                 })}
               </ul>
               <div className={styles.links}>
@@ -30,7 +31,7 @@ const Projects = () => {
                   Demo
                 </a>
                 <a className={styles.link} href={project.source}>
-                  source
+                  Source
                 </a>
               </div>
             </div>
