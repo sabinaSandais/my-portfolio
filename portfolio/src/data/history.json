@@ -2,7 +2,7 @@
   {
     "role": "Trainee full-stack developer",
     "organisation": "Hack Your Future",
-    "startDate": "2023, 2024",
+    "startDate": "2023",
     "endDate": "Present",
     "experiences": [
       "Learned full-stack development",
@@ -12,15 +12,18 @@
     "imageSrc": "history/hyf3.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "role": "Teacher",
+    "organisation": "Gems Westmknister School",
+    "startDate": "Aug, 2016",
+    "endDate": "Aug, 2018",
+    "experiences": [
+      "Worked on Curriculum Development",
+      "Taught Science and Math"
+    ],
     "imageSrc": "history/gems.png"
   },
   {
-    "role": "SWE Intern",
+    "role": "",
     "organisation": "Netflix",
     "startDate": "Apr, 2020",
     "endDate": "Jun, 2020",
