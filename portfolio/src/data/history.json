@@ -23,14 +23,14 @@
     "imageSrc": "history/gems.png"
   },
   {
-    "role": "",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Trainee",
+    "organisation": "Hack Your Future",
+    "startDate": "2023",
+    "endDate": "Jun, 2024",
     "experiences": [
       "Worked on component library",
       "Helped create UI components"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/hyf3.png"
   }
 ]
