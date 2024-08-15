@@ -2,33 +2,41 @@
   {
     "title": "Recycle Ease",
     "imageSrc": "projects/recycle.png",
-    "description": "This is the culmination of our Hack Your Future journey, where we developed a full stack web app featuring live notifications.",
-    "skills": ["React", "Express", "Node", "Mongo-Db", "socket-io", "css"],
+    "description": "This is the culmination of my Hack Your Future journey,a full stack web app featuring live notifications.",
+    "skills": ["MERN_Stack", "socket-io", "css"],
     "demo": "https://c46-group-a-f3ebdee28d59.herokuapp.com/",
     "source": "https://github.com/sabinaSandais/Recycle-Ease"
   },
   {
-    "title": "Quiz App",
-    "imageSrc": "projects/quiz.png",
-    "description": "This is a project made to learn abbout bbrowsers using Vanilla Javascript.",
-    "skills": ["css", "Vanilla Javascript"],
-    "demo": "https://sabinasandais.github.io/Brwser-project-sabina-diaa-nancy/",
-    "source": "https://github.com/sabinaSandais/Brwser-project-sabina-diaa-nancy"
-  },
-  {
     "title": "Wine pairing",
     "imageSrc": "projects/wine.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "This project is made using Vanilla Javascript using external Api and modern css.It also allow to search recipes.",
+    "skills": ["Api", "css", "Javascript"],
     "demo": "https://sabinasandais.github.io/wine-pairing-app/",
     "source": "https://github.com/sabinaSandais/wine-pairing-app"
   },
   {
     "title": "Quotes and Books",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "imageSrc": "projects/quotes.png",
+    "description": "This project is made to learn the front-end using React.You can read quotes and search booksand add to your favorites.",
+    "skills": ["React", "Css", "Node"],
+    "demo": "https://react-library-sabina.netlify.app/",
+    "source": "https://github.com/sabinaSandais/Quotes-books-Project-React"
+  },
+  {
+    "title": "Quiz App",
+    "imageSrc": "projects/quiz.png",
+    "description": "This is a project made to practice the vanilla javascript and css",
+    "skills": ["css", "Vanilla Javascript"],
+    "demo": "https://sabinasandais.github.io/Brwser-project-sabina-diaa-nancy/",
+    "source": "https://github.com/sabinaSandais/Brwser-project-sabina-diaa-nancy"
+  },
+  {
+    "title": "Quiz",
+    "imageSrc": "projects/quizz.png",
+    "description": "This project is made to practice the front-end using advanced css and react",
+    "skills": ["Css", "React", "Axios", "Jest"],
+    "demo": "https://zesty-palmier-31593b.netlify.app/",
+    "source": "https://github.com/sabinaSandais/Quiz/tree/main/quiz"
   }
 ]
