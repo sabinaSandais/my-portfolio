@@ -62,3 +62,36 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 80px;
+    padding: 40px 5%;
+  }
+
+  .text h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .text p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .links {
+    align-items: center;
+
+    gap: 18px;
+  }
+
+  .link a {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  .link {
+    gap: 10px;
+  }
+}
