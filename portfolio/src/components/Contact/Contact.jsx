@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -29,6 +27,15 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/sabinasandais">
             linkedin.com/SabinaSandais
           </a>
+<<<<<<< HEAD
+=======
+        </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <a href="https://www.github.com/sabinaSandais">
+            github.com/sabinaSandais
+          </a>
+>>>>>>> e4e01e0ccdfeeb8058f163139f4655cb24d6aab5
         </li>
       </ul>
     </footer>
