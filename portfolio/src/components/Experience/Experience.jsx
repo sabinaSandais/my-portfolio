@@ -1,11 +1,9 @@
-import React from 'react';
-import styles from './Experience.module.css';
+import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
-import { getImageUrl } from '../../utils';
+import { getImageUrl } from "../../utils";
 import history from "../../data/history.json";
 
 const Experience = () => {
-    return (
         <section className={styles.container} id="experience">
           <h2 className={styles.title}>Experience</h2>
           <div className={styles.content}>
@@ -46,5 +44,6 @@ const Experience = () => {
         </section>
       );
 }
+  return (
 
-export default Experience
+export default Experience;
