@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
+=======
+import { useState } from "react";
+>>>>>>> e4e01e0ccdfeeb8058f163139f4655cb24d6aab5
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
