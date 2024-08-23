@@ -1,4 +1,3 @@
-import React from "react";
 import projects from "../../data/projects.json";
 import { getImageUrl } from "../../utils";
 import styles from "./Projects.module.css";
